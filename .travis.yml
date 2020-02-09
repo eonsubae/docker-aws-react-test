@@ -6,4 +6,4 @@ before_install:
   - docker build -t eonsubae/docker-aws-react-test -f Dockerfile.dev .
 
 script:
-  - docker container run eonsubae/docker-aws-react-test npm run test -- --coverage
+  - docker container run -e CI=true eonsubae/docker-aws-react-test npm run test
