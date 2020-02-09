@@ -7,8 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hi</p>
+        <h1 className="App-title">Welcome to React</h1>
       </header>
+      <p className="App-intro">I was changed on the Feature branch</p>
     </div>
   );
 }
